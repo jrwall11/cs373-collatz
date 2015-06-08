@@ -26,6 +26,7 @@ before_script:
 
 script:
     - date
+    - touch .gitignore
     - ls -al
     - touch Collatz.log
     - make collatz-tests
