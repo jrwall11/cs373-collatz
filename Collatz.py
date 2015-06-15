@@ -10,6 +10,9 @@
 # collatz_read
 # ------------
 
+myDict = {1 : 1}
+# assert type(myDict) is dict 
+
 def collatz_read (s) :
     """
     read two ints
@@ -18,6 +21,38 @@ def collatz_read (s) :
     """
     a = s.split()
     return [int(a[0]), int(a[1])]
+
+# ------------
+# collatz_cyclelen
+# ------------
+
+def collatz_cyclelen(n) :
+    """
+    calculate cycle length and insert into global cache
+    """
+    global myDict
+    assert n >= 1
+    v = 0
+    original = n
+    while n > 1 :
+        if n in myDict :
+            myDict[original] = myDict[n] + v
+            #print (original)
+            #print (myDict[n] + v)
+            return myDict[n] + v
+        else :
+            if n % 2 == 0 :
+                n //= 2
+                v += 1
+            else :
+                n = n + (n >> 1) + 1
+                v += 2
+    v += 1
+    #print (original)
+    #print (v)
+    myDict[original] = v
+    return v
+
 
 # ------------
 # collatz_eval
@@ -29,8 +64,17 @@ def collatz_eval (i, j) :
     j the end       of the range, inclusive
     return the max cycle length of the range [i, j]
     """
-    # changed this to establish dev branch
-    return 1
+    global myDict
+    temp = 0
+    # declare maxcycle and return maxcycle as answer
+    maxcycle = 1 
+    for x in range(i, j):
+        temp = collatz_cyclelen(x)
+        #print(temp)
+        if maxcycle < temp :
+            maxcycle = temp
+    #print (myDict)
+    return maxcycle
 
 # -------------
 # collatz_print
