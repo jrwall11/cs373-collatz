@@ -1,0 +1,115 @@
+commit d6789c8c98e3c0b3ec6aa4c159030aa7a870fff4
+Author: Josh Waller <joshwaller@Josh-Wallers-MacBook-Pro.local>
+Date:   Mon Jun 15 20:02:31 2015 -0500
+
+    Wrote Unit Test for each method and corrected all unit test
+
+commit 88b921c8dd811ee1ee3906182b09db19d8cb4dd6
+Author: Josh Waller <joshwaller@Josh-Wallers-MacBook-Pro.local>
+Date:   Mon Jun 15 19:16:04 2015 -0500
+
+    Solve issue 15 bug
+
+commit b5f881003be7331152c11586ac32361de1b634e2
+Author: Josh Waller <joshwaller@Josh-Wallers-MacBook-Pro.local>
+Date:   Mon Jun 15 18:33:12 2015 -0500
+
+    Simple solution for global cache iss12 and iss14. If build succes resolves iss13, as well
+
+commit 5c564b25fd3b1a4f9b4c96434db60a3e5774ad29
+Author: Josh Waller <joshwaller@Josh-Wallers-MacBook-Pro.local>
+Date:   Mon Jun 15 15:49:07 2015 -0500
+
+    Edited collatz to establish my dev branch
+
+commit 5f4792ba5bbc6d127e21bdb3ae13d763f053917b
+Author: Joshua <jrwall11@utexas.edu>
+Date:   Sun Jun 14 16:09:52 2015 -0500
+
+    Correct test results from 1 to correct values
+
+commit 7b3c028c0293dc24bf393081fa537f7082f5b9e4
+Author: Joshua <jrwall11@utexas.edu>
+Date:   Sun Jun 14 15:19:00 2015 -0500
+
+    Added sudo: required to .travis.yml
+
+commit 92e2f85cb32b9f402edb3959f353d803777c9e51
+Author: Joshua <jrwall11@utexas.edu>
+Date:   Sun Jun 14 15:15:47 2015 -0500
+
+    Delete .coverage
+
+commit 3004d0e464794ebbc773d72cd38d567f2d317ec9
+Author: Joshua <jrwall11@utexas.edu>
+Date:   Sun Jun 14 15:15:31 2015 -0500
+
+    Delete gitignore.sample
+
+commit f6148ef76e0433bb1ea1516e2354f1ace9ca7972
+Author: Josh Waller <joshwaller@Josh-Wallers-MacBook-Pro.local>
+Date:   Sun Jun 14 15:13:21 2015 -0500
+
+    Travis CI build attempt2
+
+commit 93b741d42626024d5a252d716bcdacb1f422529c
+Author: Josh Waller <joshwaller@Josh-Wallers-MacBook-Pro.local>
+Date:   Sun Jun 14 14:59:18 2015 -0500
+
+    Travis CI build attempt
+
+commit 9495624ff62fb2786b329cb033d3504718e39166
+Author: Joshua <jrwall11@utexas.edu>
+Date:   Thu Jun 11 20:18:29 2015 -0500
+
+    Wrong Collatz.log
+
+commit 389fffdb4038b41f86e03ec590eec3eb0e75f3cd
+Author: Joshua <jrwall11@utexas.edu>
+Date:   Thu Jun 11 20:17:04 2015 -0500
+
+    Create Collatz.log
+    
+    This will be a log of the commits I have made.
+
+commit 36cf711bc18788f1f7da43a2e31234aa4eec79c9
+Author: Joshua <jrwall11@utexas.edu>
+Date:   Thu Jun 11 20:14:35 2015 -0500
+
+    Renamed to .gitignore
+
+commit 39568b7172468ff7b7cb8c8580f411865ea49f6c
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Mon Jun 8 12:06:56 2015 -0500
+
+    another commit
+
+commit 27f67cd517b5fefb2349df4d8c5ee0b141d37b91
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Mon Jun 8 12:00:30 2015 -0500
+
+    another commit
+
+commit cbde4f5ce16d0cd9ca9fc7ecae38c9698f562398
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Sun Jun 7 23:55:46 2015 -0500
+
+    another commit
+
+commit b55b656e776654ebb8931b3f3a53685c1b5f90b7
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Sun Jun 7 19:30:09 2015 -0500
+
+    another commit
+
+commit 26bf0211781502dc947eb487fedcd9b8d9f43b97
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Sun Jun 7 19:20:22 2015 -0500
+
+    another commit
+
+commit 54e03e3efe299c68f67b457fefaf676b773ae87d
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Sun Jun 7 18:56:22 2015 -0500
+
+    first commit
