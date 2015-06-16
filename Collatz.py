@@ -67,7 +67,11 @@ def collatz_eval (i, j) :
     global myDict
     temp = 0
     # declare maxcycle and return maxcycle as answer
-    maxcycle = 1 
+    maxcycle = 1
+    if i > j :
+        j ^= i
+        i ^= j
+        j ^= i 
     for x in range(i, j):
         temp = collatz_cyclelen(x)
         #print(temp)
